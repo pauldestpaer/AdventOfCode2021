@@ -1,7 +1,7 @@
 zeroCount = ''
 rowCount = 0
 itemLength = 0
-with open('3.txt') as f:
+with open('3\\3.txt') as f:
     for line in f.readlines():
         rowCount += 1
         line = line.rstrip()

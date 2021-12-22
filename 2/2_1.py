@@ -1,6 +1,6 @@
 forward = 0
 depth = 0
-with open('2_1.txt') as f:
+with open('2\\2_1.txt') as f:
     for line in f.readlines():
         # split the line to get the direction and the amount
         details = line.split(' ')

@@ -1,7 +1,7 @@
 lastThree = [0,0,0]
 pos = 0
 deeper = 0
-with open('1_1.txt') as f:
+with open('1\\1_1.txt') as f:
     for line in f.readlines():
         if lastThree[pos] != 0:
             # No need to sum these, if the one being added to the last three is greater than

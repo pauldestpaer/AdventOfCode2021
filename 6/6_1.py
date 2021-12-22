@@ -1,5 +1,5 @@
 fishes = []
-with open('6.txt') as f:
+with open('6\\6.txt') as f:
     for line in f.readlines():
         # just one line to read here. Split it by ','...
         splitLine = line.split(',')

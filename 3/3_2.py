@@ -3,7 +3,7 @@ totalRowCount = 0
 itemLength = 0
 digits = []
 allTheData = []
-with open('3.txt') as f:
+with open('3\\3.txt') as f:
     for line in f.readlines():
         # this time, read them all into a set. Will need to go through them multiple times
         allTheData.append(line.rstrip())

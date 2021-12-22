@@ -6,7 +6,7 @@ hitTwice = []
 startLine = ''
 endLine = ''
 totalHitTwice = 0
-with open('5.txt') as f:
+with open('5\\5.txt') as f:
     for line in f.readlines():
         # Each line is (2 coords) -> (2 coords). 
         # Get this data into start,finish gruops.

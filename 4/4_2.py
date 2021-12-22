@@ -6,7 +6,7 @@ numbers = []
 lineOnBoard = []
 board = []
 boards = []
-with open('4.txt') as f:
+with open('4\\4.txt') as f:
     for line in f.readlines():
         if len(numbers) == 0:
             # first line. Its the draw numbers

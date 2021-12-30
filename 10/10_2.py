@@ -47,4 +47,4 @@ for line in lines:
 
 # finally, sort the scores and pick the middle one. Puzzle has guaranteed an odd number
 autoCompleteScores.sort()
-print(autoCompleteScores[int((len(autoCompleteScores)-1)/2)])
+print(autoCompleteScores[int((len(autoCompleteScores)-1)/2)]) # remember, its a 0 based array..

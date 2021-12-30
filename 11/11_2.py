@@ -29,9 +29,11 @@ with open('11\\11.txt') as f:
             data[i] = int(data[i])
         readings.append(data)
 
-# Iterate 100 times round.
-didFlash = False
-for i in range(0, 100):
+iterations = 0
+notAllFlashed = True
+while notAllFlashed:
+    flashCount = 0
+    iterations += 1
     
     # First - increment each cell. don't record flashes or similar
     for x in range(0, len(readings)):
@@ -52,5 +54,6 @@ for i in range(0, 100):
                     if keepChecking:
                         keepCheckingThisIteration = True # Going to need to go round again
 
-
-print(flashCount)
+    if flashCount == len(readings)*len(readings[x]):
+        break
+print(iterations)
